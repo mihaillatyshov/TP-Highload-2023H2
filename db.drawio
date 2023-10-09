@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Z2NH9QgplLm-bh9jb7h5" name="Page-1">
-        <mxGraphModel dx="2932" dy="1228" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2616" dy="1147" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -214,43 +214,35 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="3" target="35">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="3" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;User&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;avatar_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nickname: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;email: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;confirmed: bool&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;passwd: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;User&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;avatar: varchar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;nickname: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;email: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;confirmed: bool&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;passwd: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-280" y="470" width="160" height="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=17;startArrow=ERmany;startFill=0;elbow=vertical;rounded=0;endArrow=open;endFill=0;" edge="1" parent="1" source="9" target="3">
+                <mxCell id="10" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=17;startArrow=ERmany;startFill=0;elbow=vertical;rounded=0;endArrow=open;endFill=0;" parent="1" source="9" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
+                            <mxPoint x="-570" y="530"/>
                             <mxPoint x="-570" y="520"/>
                             <mxPoint x="-570" y="530"/>
                             <mxPoint x="-560" y="530"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="9" target="35">
+                <mxCell id="9" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Question&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;img: varchar [ ] | null&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;likes_count: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-680" y="330" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=17;startArrow=ERmany;startFill=0;endSize=6;jumpSize=6;rounded=0;endArrow=open;endFill=0;elbow=vertical;" parent="1" source="11" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-730" y="440"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="9" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Question&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;img_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-680" y="350" width="160" height="130" as="geometry"/>
-                </mxCell>
-                <mxCell id="12" style="edgeStyle=elbowEdgeStyle;html=1;fontSize=17;startArrow=ERmany;startFill=0;endSize=6;jumpSize=6;rounded=0;endArrow=open;endFill=0;elbow=vertical;" edge="1" parent="1" source="11" target="3">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="-570" y="600"/>
+                            <mxPoint x="-570" y="590"/>
                             <mxPoint x="-550" y="590"/>
                             <mxPoint x="-340" y="600"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endSize=6;endArrow=open;endFill=0;" edge="1" parent="1" source="11" target="9">
+                <mxCell id="13" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endSize=6;endArrow=open;endFill=0;" parent="1" source="11" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
+                            <mxPoint x="-630" y="560"/>
                             <mxPoint x="-810" y="400"/>
                             <mxPoint x="-820" y="570"/>
                             <mxPoint x="-600" y="550"/>
@@ -258,43 +250,37 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="40" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="11" target="35">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="-730" y="680"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="11" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Answer&lt;/div&gt;&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;img_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                <mxCell id="11" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Answer&lt;/div&gt;&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;img: varchar [ ] | null&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;likes_count: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
                     <mxGeometry x="-680" y="640" width="160" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;elbow=vertical;" edge="1" parent="1" source="14" target="3">
+                <mxCell id="16" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;elbow=vertical;" parent="1" source="14" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
+                            <mxPoint x="-200" y="290"/>
                             <mxPoint x="-230" y="290"/>
                             <mxPoint x="-200" y="320"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;elbow=vertical;" edge="1" parent="1" source="14" target="9">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;elbow=vertical;" parent="1" source="14" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="-570" y="290"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="14" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;QuestionLike&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;state: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-480" y="230" width="160" height="120" as="geometry"/>
+                <mxCell id="14" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;QuestionLike&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;state: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="230" width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="18" target="3">
+                <mxCell id="19" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="18" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-170" y="120"/>
+                            <mxPoint x="-160" y="120"/>
                             <mxPoint x="-170" y="130"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="18" target="9">
+                <mxCell id="20" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="18" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="-630" y="120"/>
@@ -302,59 +288,71 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;QuestionComment&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;comment_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-480" y="50" width="160" height="140" as="geometry"/>
+                <mxCell id="18" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;QuestionComment&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;parent_id: int | null&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="50" width="160" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="18" target="18">
+                <mxCell id="21" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="18" target="18" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="-440" y="10"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="28" target="3">
+                <mxCell id="31" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="28" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="-170" y="1050"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="33" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="28" target="11">
+                <mxCell id="33" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="28" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="-630" y="1050"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;AnswerComment&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;answer_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;comment_id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-480" y="975" width="160" height="140" as="geometry"/>
+                <mxCell id="28" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;AnswerComment&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;answer_id: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;parent_id: int | null&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;message: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="950" width="160" height="155" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="29" target="3">
+                <mxCell id="30" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="29" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-230" y="873"/>
+                            <mxPoint x="-230" y="850"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="32" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="29" target="11">
+                <mxCell id="32" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="29" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
+                            <mxPoint x="-570" y="850"/>
                             <mxPoint x="-570" y="873"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="29" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Answer&lt;span style=&quot;background-color: initial;&quot;&gt;Like&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;answer_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;state: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-480" y="812.5" width="160" height="120" as="geometry"/>
+                <mxCell id="29" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Answer&lt;span style=&quot;background-color: initial;&quot;&gt;Like&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;answer_id: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;state: int&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="-480" y="780" width="160" height="137.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" edge="1" parent="1" source="28" target="28">
+                <mxCell id="34" style="edgeStyle=elbowEdgeStyle;rounded=0;jumpSize=6;elbow=vertical;html=1;fontSize=17;startArrow=ERmany;startFill=0;endArrow=open;endFill=0;endSize=6;" parent="1" source="28" target="28" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-360" y="1160"/>
+                            <mxPoint x="-440" y="1150"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;Img&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;url: varchar&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="-780" y="520" width="100" height="80" as="geometry"/>
+                <mxCell id="41" style="edgeStyle=elbowEdgeStyle;html=1;rounded=0;endArrow=open;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="40" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-240" y="430"/>
+                            <mxPoint x="-240" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;elbow=vertical;endArrow=open;endFill=0;startArrow=ERmany;startFill=0;" edge="1" parent="1" source="40" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div style=&quot;text-align: center; box-sizing: border-box; width: 100%; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; padding: 2px;&quot;&gt;QuestionView&lt;br&gt;&lt;hr&gt;&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;id: serial&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;user_id: int&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;FK&lt;/td&gt;&lt;td&gt;question_id&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;created_at: timestamp&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;rounded=0;glass=0;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-480" y="390" width="160" height="110" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
