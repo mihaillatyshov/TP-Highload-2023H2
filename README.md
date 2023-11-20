@@ -451,7 +451,8 @@ Elasticsearch - Поисковый движок. Позволяет исполь
     - Views
     - Likes
     - Statistic (View)
-- Failover policy (Для не важных компонентов из сегментирования)
+- Failover policy (Ретраи)
+- Graceful degradation (Для не важных компонентов из сегментирования)
 - Резервирование логики (Search)
 
 
